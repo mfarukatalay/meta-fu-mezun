@@ -1,0 +1,15 @@
+# deny anyone to access the .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+RewriteEngine On
+RewriteBase /
+
+# if the file with the specified name in the browser doesn’t exist, or the directory in the browser doesn’t exist 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# then proceed to the rewrite rule below
+
+RewriteRule ^(.*)$ index.php [NC,QSA]
