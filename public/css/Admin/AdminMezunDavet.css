@@ -1,0 +1,14 @@
+.bg-danger{
+    background-color: #adb5bd !important;
+    text-align: center;
+  }
+   .bg-success{
+     text-align: center;
+     background-color: #9f28a74f !important;
+   }
+    .inviteNewAlumni{
+      font-size:  35px; 
+      color: #000000;
+      border: none;
+    background: none;
+    }

@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+#bio {
+  background-color: #ebebeb;
+  color: #797979;
+}
+
+#info {
+  color: #7a7a7a;
+}
+
+.col a {
+  text-decoration: none;
+  color: #7a7a7a;
+}

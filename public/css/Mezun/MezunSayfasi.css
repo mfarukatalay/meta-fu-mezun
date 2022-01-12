@@ -1,0 +1,26 @@
+.input-field[type="text"] {
+  float: center;
+  padding: 9px;
+  width: 350px;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.media {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.media:hover {
+  transform: scale(1.02);
+}
+
+#pageIndex {
+  font-size: 20px;
+}

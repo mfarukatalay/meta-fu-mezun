@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* use color in bootstrap for other common color */
+:root {
+  --dark-purple: rgb(134, 75, 189);
+  --light-purple: #834d9b;
+  --light-gray: rgb(223, 223, 223);
+  --dark-gray: #3a3a3a;
+  /* --dark-gray: rgb(141, 141, 141); */
+}
+
+.custom-dark-purple {
+  background-color: var(--dark-purple);
+}
+
+.custom-light-purple {
+  background-color: var(--light-purple);
+}
+
+.custom-light-gray {
+  background-color: var(--light-gray);
+}
+.custom-dark-gray {
+  background-color: var(--dark-gray);
+}
+
+.header--gradient {
+  background: linear-gradient(to left, #6e48aa, #cd8ee6);
+}
+.header--fixed-height {
+  height: 45px;
+}
+.footer--gradient {
+  background: linear-gradient(to left, #6e48aa, #a53ecd);
+}
+.header__img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.nav {
+  height: 35px;
+  background: #834d9b; /* fallback for old browsers */
+}
+.nav__img {
+  max-width: 164px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+  /* cursor: auto; */
+}
+
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  /* cursor: auto; */
+}
+
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+#notification-panel {
+  background-color: white;
+  color: black;
+  z-index: 3;
+  top: 50px;
+  position: absolute;
+  min-width: 200px;
+  max-width: 350px;
+  font-weight: 400;
+  border: 1px solid rgb(103, 103, 103);
+  font-size: 12px;
+}
+#profile-panel {
+  background-color: white;
+  color: black;
+  z-index: 4;
+  top: 50px;
+  position: absolute;
+  min-width: 150px;
+  max-width: 350px;
+  font-weight: 400;
+  border: 1px solid rgb(103, 103, 103);
+  font-size: 12px;
+}
+.profile-panel--display-none {
+  display: none;
+}
+.profile-panel__item--dark-bg:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+.item--hover-light-bg:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+.panel__icon--hover-dark-bg:hover {
+  /* color: var(--dark-gray); */
+  color: #7d7d7d;
+  cursor: pointer;
+}
+
+#contact-us-nav-item,
+#notification-icon {
+  cursor: pointer;
+}
+
+/* He Lin commented this */
+/* .dropdown-item:focus,
+.dropdown-item:active {
+  background: #a43ecdd8 !important;
+} */
+
+.btn-primary {
+  background-color: #a53ecd !important;
+  border: 0px !important;
+  color: white !important;
+  outline-width: 0px !important;
+}
+
+.btn-primary:hover {
+  background-color: #48175b !important;
+}
+.btn-primary:focus,
+.btn-primary:active {
+  box-shadow: 0 0 0 0.2rem #b700ff46 !important;
+}
+
+#left-nav {
+  width: 90px;
+}
+
+#right-content {
+  width: calc(100% - 90px);
+}
+
+.height-after-minus-header {
+  height: calc(100% - 45px);
+}
+
+.image--max-size-100-percent {
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+.custom-bg--transparent {
+  background-color: transparent;
+}
+/* override bootstrap */
+#headerDropdownMenuButton, #notificationDropdownMenuButton {
+  box-shadow: none !important;
+}
+#notificationDropdownMenuButton::after{
+  display: none;
+}
+
+.custom-notification-panel-width{
+  min-width: 200px;
+  width: 90vw;
+  max-width: 400px;
+  font-size: calc(0.7rem + 0.2vw)
+}
+
+.img-fluid{
+  width:100% !important;
+}
+
+select.form-control{
+  background:none !important;
+}
+
+.card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}

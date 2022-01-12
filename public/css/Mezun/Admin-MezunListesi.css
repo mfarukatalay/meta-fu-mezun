@@ -1,0 +1,10 @@
+@import "index.css";
+
+.table__td--height{
+  height: 100px;
+  width: 100px;
+}
+
+.admin-nav__brighten:hover{
+  background-color: var(--dark-gray);
+}

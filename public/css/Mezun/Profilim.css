@@ -1,0 +1,26 @@
+* {
+  font-family: "Poppins";
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+.bottom-25 {
+  bottom: 25%;
+}
+
+.back {
+  text-decoration: none;
+  color: black;
+}
+
+.right-0 {
+  right: 0;
+}
+.right-20 {
+  right: 20%;
+}
+
+.bg-grey {
+  background-color: #ebebeb;
+}

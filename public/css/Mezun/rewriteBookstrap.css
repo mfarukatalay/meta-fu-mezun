@@ -1,0 +1,181 @@
+body{
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #F7C600;
+  border-radius: 0%;
+  /* padding-bottom: 0%; */
+}
+
+.nav-link {
+  color: black;
+  background-color: #EFE6EE;
+  border-radius: 0%;
+  padding-top: 0%;
+  padding:5%;
+}
+
+
+
+.col-2 {
+    /* -ms-flex: 0 0 16.666667%; 
+    flex: 0 0 16.666667%; */
+    -ms-flex: 0 0 13%; 
+    flex: 0 0 13%;
+    max-width: 13%;      /*16.666667% */
+    padding: 50px 0 0;
+    background-color: #C9B3CD;
+    height: calc(100vh - 48px);
+    padding-top: 0rem;
+    top: 0;
+   
+    /* overflow-x: hidden;
+    overflow-y: auto;  */
+  }
+
+  /* @supports ((position: -webkit-sticky) or (position: sticky)) {
+    .col-2 {
+      position: -webkit-sticky;
+      position: sticky;
+    }
+  } */
+
+
+  /* .navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  }
+  
+  .navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+  }
+  
+  .navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+  }
+  
+  .form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+  }
+  
+  .form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  } */
+
+  .home-row{
+    padding-left: 10%;  
+  }
+
+  .card-footer {
+    padding-top:0%;
+    background-color: #fff;
+    border-top: none;
+  }
+
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding-bottom: 5px;
+  }
+  .bi-trash-fill{
+    opacity: 0.3;
+  }
+
+.bi-trash-fill:hover{
+  opacity: 1.0;
+  color: red;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  color: black;
+}
+
+.col-1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.col-7{
+  display: flex;
+  justify-content: left;
+}
+
+
+.col-3{
+  display: flex;
+  justify-content: center;
+}
+
+.cards{
+  padding-left: 10%;
+}
+
+#container {
+  height: 180px;
+  width: 300px;
+  background-color:#F5B62D ;
+  color : white;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 32px;
+  font-size:35px;
+
+}
+#alumniText{
+  text-decoration: none;
+}
+
+.alert {
+  background-color: #E9E5E5;
+}
+
+.header__img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+
+/* eventPage.css */
+#wrapper{
+  width: 85%;
+  margin-right: auto;
+ margin-left: auto;
+  min-width: 900px;
+ max-width: 1280px;
+}
+
+.backgroundImage{
+  opacity: 0.7;
+}
+
+.input-group{
+  position: absolute;
+  top:27%;
+  width: 1200px;
+  left:12%;
+}
+
+
+/* .d-flex flex-row-reverse{
+  display:inline;
+} */

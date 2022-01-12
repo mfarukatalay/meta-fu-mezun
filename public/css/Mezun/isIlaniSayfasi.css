@@ -1,0 +1,56 @@
+body{
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+
+.header__img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+
+.col-1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+
+.fas{
+  line-height:unset;
+}
+
+
+.col-7{
+  display: flex;
+  justify-content: left;
+  top: 0;
+}
+
+.cards{
+  padding-left: 10%;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  color: black;
+}
+
+.w-100{
+aspect-ratio:2/1; 
+overflow:hidden;
+}
+
+.fa-map-marked-alt{
+  color: rgb(167, 0, 0);
+}
+
+.fa-sack-dollar{
+  color: #28a745;
+}

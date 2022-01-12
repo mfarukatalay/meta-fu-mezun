@@ -1,0 +1,10 @@
+.company-image {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+.image-area{
+  border: 1px solid rgba(83, 83, 83, 0.7);
+  padding: 0;
+}

@@ -1,0 +1,44 @@
+.table__td--height{
+  width: 100%;
+}
+
+ 
+.alumniName:hover { 
+  background-color: #B19CD9;
+  cursor: pointer;
+ } 
+ 
+ .bg-danger{
+  background-color: #adb5bd !important;
+  text-align: center;
+ }
+ .bg-success{
+   text-align: center;
+   background-color: #9f28a74f !important;
+ }
+
+td p {
+  width: 100%;
+  display: block;
+  height: 50px;
+}
+
+.eventTitle{
+    width: 300px;
+    height: 50px;  
+}
+.eventTitle p
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: inherit;
+    text-decoration: inherit;
+  }
+.eventTitle:hover { background-color: #B19CD9; }
+
+
+ form, table{
+  font-size: 18px !important;
+  font-family: Poppins !important; 
+ }

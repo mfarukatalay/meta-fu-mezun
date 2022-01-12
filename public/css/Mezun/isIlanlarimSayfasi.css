@@ -1,0 +1,77 @@
+body{
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+.card-footer {
+  padding-top:0%;
+  background-color: #fff;
+  border-top: none;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding-bottom: 5px;
+}
+
+.fa-trash-alt{
+  opacity: 0.3;
+}
+
+.fa-trash-alt:hover{
+opacity: 1.0;
+color: red;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  color: black;
+}
+
+.col-1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+.col-7{
+  display: flex;
+  justify-content: left;
+}
+
+.cards{
+  padding-left: 10%;
+}
+
+.header__img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.w-100{
+aspect-ratio:2/1; 
+overflow:hidden;
+}
+
+.h3, h3{
+  color: #660761b2;
+}
+
+.fa-map-marked-alt{
+  color: rgb(167, 0, 0);
+}
+
+.fa-sack-dollar{
+  color: #28a745;
+}
+
+#top{
+  color: red;
+}

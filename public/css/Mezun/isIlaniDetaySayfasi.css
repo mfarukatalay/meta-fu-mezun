@@ -1,0 +1,42 @@
+/* body {
+    font-family: 'Poppins';
+    font-weight: bold; 
+    margin: 5%; 
+} */
+
+#job{
+    background-color: #EBEBEB;
+    color: #797979;
+}
+
+.info{
+    color: #7A7A7A;
+}
+
+.col-8 a{
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+.back:hover{
+    text-decoration: none;
+}
+
+.back {
+    text-decoration: none;
+    color:black;
+}
+
+.col-1{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-map-marked-alt{
+    color: rgb(167, 0, 0);
+  }
+  
+.fa-sack-dollar{
+    color: #28a745;
+ }
+
